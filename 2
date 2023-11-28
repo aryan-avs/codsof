@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+int main(){
+    float a,b;
+    cout << "Enter First No."<<endl;
+    cin>>a;
+    cout<<"Enter second no."<<endl;
+    cin>>b;
+    char c;
+    cout<<"Enter the Operation which you have to perform"<<endl;
+    cin>>c;
+    switch(c){
+        case '+': cout << a+b;
+        break;
+        case '-': cout << a-b;
+        break;
+        case '*': cout << a*b;
+        break;
+        case '/': cout << a/b;
+        break;
+        default:
+        cout<< "Enter Valid operation" <<endl;
+    }
+}
